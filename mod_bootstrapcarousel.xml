@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.1.0" client="site" method="upgrade">
+    <name>Bootstrap Carousel</name>
+    <author>Dale DuRose</author>
+    <version>1.0.0</version>
+    <description>Joomla! Bootstrap Carousel Module</description>
+    <files>
+        <filename>mod_bootstrapcarousel.xml</filename>
+        <filename module="mod_bootstrapcarousel">mod_bootstrapcarousel.php</filename>
+        <filename>index.html</filename>
+        <filename>helper.php</filename>
+        <filename>tmpl/default.php</filename>
+        <filename>tmpl/index.html</filename>
+    </files>
+    <config>
+	<fields name="params">
+		<fieldset name="basic">
+			<field
+				name="captionOne"
+				type="editor"
+				default=""
+				label="First Caption"
+				description="caption_one"
+				filter="safehtml">
+			</field>
+			<field
+				name="captionTwo"
+				type="editor"
+				default=""
+				label="Second Caption"
+				description="caption_two"
+				filter="safehtml">
+			</field>
+			<field
+				name="captionThree"
+				type="editor"
+				default=""
+				label="Third Caption"
+				description="caption_three"
+				filter="safehtml">
+			</field>
+		</fieldset>
+	</fields>
+    </config>
+</extension>
+
+
+
+
+
+
+
